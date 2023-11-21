@@ -1,9 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import HomePage from './HomePage'
+import Home from './HomePage'
+import './css/index.css'
+import './css/home.css'
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <HomePage />
+    <Home />
   </React.StrictMode>,
 )
