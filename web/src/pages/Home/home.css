@@ -1,0 +1,228 @@
+.content-main {
+    content: "";
+    background-image: url('/assets/png/bg-pipoca.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+  
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white);
+    padding-right: 2rem;
+    height: 70px;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+
+}
+
+.logo {
+    padding-left: 1.2rem;
+}
+
+.icon-person {
+    font-size: 1.5rem;
+    color: var(--red-color);
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+}
+
+nav .btn-header {
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 1rem;
+    
+}
+
+nav ul li .item-header{
+    text-decoration: none;
+    color: var(--black);
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 0.8rem 2rem;
+    
+}
+
+nav ul li .item-header:hover {
+    background-color: var(--red-color);
+    color: var(--white);
+    border-radius: 80px;
+    border: 6px solid var(--light-yellow);
+   
+}
+
+.login-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1.5rem;
+}
+
+.login-area .item-header {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.login-area span {
+    border: 1px solid var(--gray);
+    height: 2rem;
+}
+
+.btn-login {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: 600;
+    font-size: 1rem;
+    
+}
+
+main {
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    
+}
+
+article {
+    display: flex;
+    align-items: end;
+    
+}
+
+article img {
+    width: 70%;
+    
+}
+
+.content-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-right img {
+    width: 600px;
+    height: auto;
+}
+
+
+
+.content-right p {
+    color: var(--white);
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    
+}
+
+.content-right button {
+    background-color: var(--red-color);
+    margin: 0;
+    padding: 0.8rem 2.5rem;
+    border-radius: 80px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: 6px solid var(--light-yellow);
+    color: var(--white);
+    cursor: pointer;
+    
+    
+}
+
+
+.content-dropdown {
+    display: flex;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+
+.menu {
+    display: none;
+    transition: all 0.5s ease-in-out;
+    padding: 1rem;
+
+    
+}
+
+@keyframes enterMenu {
+    to {
+        transform: translateX(0);
+    }
+
+    from {
+        transform: translateX(100%);
+    }
+
+}
+
+.menu.active {
+    display: flex;
+    flex-direction: column;
+    animation: enterMenu 1s ease-out;
+    
+}
+
+
+.menu-btn {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.icon-arrow {
+    font-size: 1.5rem;
+    transition: transform 0.5s ease;
+}
+
+.icon-arrow.rotate {
+    transform: rotate(-90deg);
+}
+    
+
+.item-menu {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--red-color);
+    padding: 0.8rem 2.5rem;
+    border-radius: 80px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--white);
+    
+}
+
+.list-menu {
+    margin-bottom: 0.2rem;
+}
+
+
+
