@@ -1,12 +1,12 @@
-body {
+.content-main {
     content: "";
     background-image: url('/assets/png/bg-pipoca.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
-    
-  }
+    width: 100vw;
+    height: 100vh;
+}
   
 
 header {
