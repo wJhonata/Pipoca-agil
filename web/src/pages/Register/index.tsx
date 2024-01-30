@@ -1,5 +1,5 @@
 import { Header } from '../../components/Header'
-import './register.css'
+import './login.css'
 
 export function Register() {
   return (
