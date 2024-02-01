@@ -1,21 +1,23 @@
-import { IoMdPerson  } from 'react-icons/io';
+import { IoMdPerson  } from "react-icons/io"
+import { HeaderLink } from "./HeaderLink"
+import { Separator } from "./Separator"
 
 export function Header() {
   return (
-    <header>
-      <div className="logo">
-          <img src="/assets/svg/logo.svg" alt="Logo Pipoca Ágil" />
-      </div>
-      <nav>
-        <ul className="btn-header">
-          <li><a href="" className="item-header">Home</a></li>
-          <li><a href="" className="item-header">Galeria</a></li>
-          <li><a href="" className="item-header">Inscreva-se</a></li>
+    <header className="flex w-full justify-between items-center bg-yellow-50 px-8 h-20">
+      <img src="/assets/svg/logo.svg" alt="Logo do Pipoca Ágil" className="size-20" />       
+
+      <nav className="flex flex-row items-center">
+        <ul className="flex flex-row items-center gap-5">
+          <li><HeaderLink href="" title="Home" /></li>          
+          <li><HeaderLink href="" title="Galeria" /></li>
+          <li><HeaderLink href="" title="Inscreva-se" /></li>
         </ul>
-        <div className="login-area">
-          <IoMdPerson className="icon-person" />
-          <span></span>
-          <a href="/login" className="btn-login">Login</a>
+
+        <div className="flex flex-row items-center justify-center p-4 gap-6">
+          <IoMdPerson size={24} color="red" />
+          <Separator />
+          <a href="/login" className="text-black font-semibold text-base hover:underline">Login</a>
         </div>
       </nav>
     </header>

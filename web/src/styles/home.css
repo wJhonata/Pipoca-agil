@@ -1,4 +1,4 @@
-.content-main {
+/* .content-main {
     content: "";
     background-image: url('/assets/png/bg-pipoca.png');
     background-size: cover;
@@ -103,7 +103,7 @@ main {
     justify-content: space-between;
     overflow: hidden;
     
-}
+} 
 
 article {
     display: flex;
@@ -152,7 +152,6 @@ article img {
     
 }
 
-
 .content-dropdown {
     display: flex;
     align-items: center;
@@ -164,9 +163,7 @@ article img {
 .menu {
     display: none;
     transition: all 0.5s ease-in-out;
-    padding: 1rem;
-
-    
+    padding: 0 1rem;
 }
 
 @keyframes enterMenu {
@@ -177,16 +174,13 @@ article img {
     from {
         transform: translateX(100%);
     }
-
 }
 
 .menu.active {
     display: flex;
     flex-direction: column;
     animation: enterMenu 1s ease-out;
-    
 }
-
 
 .menu-btn {
     width: 100%;
@@ -205,7 +199,6 @@ article img {
 .icon-arrow.rotate {
     transform: rotate(-90deg);
 }
-    
 
 .item-menu {
     display: block;
@@ -217,12 +210,9 @@ article img {
     font-size: 1rem;
     font-weight: 700;
     color: var(--white);
-    
 }
 
 .list-menu {
     margin-bottom: 0.2rem;
 }
-
-
-
+   */
