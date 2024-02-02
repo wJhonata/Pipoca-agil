@@ -15,14 +15,14 @@ export function Login() {
           <div className="flex flex-col w-full max-w-[583px] space-y-4">
             <input type="text" className="w-full p-6 bg-white font-bold text-2xl border-none text-[var(--light-yellow)] placeholder:text-[var(--light-yellow)]" placeholder="E-mail ou CPF" />
             <input type="text" className="w-full p-6 bg-white font-bold text-2xl border-none text-[var(--light-yellow)] placeholder:text-[var(--light-yellow)]" placeholder="Senha" />            
-            <a href="#" className="text-xl text-zinc-800 hover:underline self-end">Esqueci a senha</a>          
+            <a href="#" className="font-bold text-xl text-zinc-800 hover:underline self-end">Esqueci a senha</a>          
           </div>
           
           <Button title="Entrar" />          
 
           <div className="flex flex-col items-center justify-center space-y-2">
-            <span className="text-xl text-zinc-800">Ainda não é membro?</span>
-            <a href="/register" className="text-xl text-zinc-800 hover:underline">Crie uma conta</a>
+            <span className="font-bold text-xl text-zinc-800">Ainda não é membro?</span>
+            <a href="/register" className="font-bold text-xl text-zinc-800 hover:underline">Crie uma conta</a>
           </div>
         </div>
       </div>              
