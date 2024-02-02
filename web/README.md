@@ -22,23 +22,27 @@
 ## 💻 Como usar o projeto
 Para gerar uma cópia do projeto e implementar as suas melhorias, esteja em um computador com Node Js instalado e siga as etapas abaixo:
 
-1  clone o projeto com o comando 
+1 clone o projeto com o comando 
 ```
 git clone https://github.com/wJhonata/Pipoca-agil
 ``` 
-2  Acesse o projeto pelo terminal com o comando 
+2 Acesse o projeto pelo terminal com o comando 
 ```
-cd Pipoca-agil
+cd Pipoca-agil/web
 ```  
-3  Instale as dependências necessárias com o comando
+3 Instale as dependências necessárias com o comando
 ```
 npm install
 ```
-4  Rode o projeto com o comando
+4 Rode o projeto com o comando
 ```
 npm run dev
 ``` 
-5  Ou acesse o aplicativo através do website [Em breve](https://github.com/wJhonata/Pipoca-agil) 
+5 Acesse o aplicativo em
+```
+http://localhost:5173/
+```
+6 Ou acesse o aplicativo através do website [Em breve](https://github.com/wJhonata/Pipoca-agil) 
 
 
 ## 🌐 Links úteis
