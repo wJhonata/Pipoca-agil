@@ -1,4 +1,4 @@
-import { IoMdPerson  } from 'react-icons/io';
+import { IoMdPerson  } from 'react-icons/io'
 
 export function Header() {
   return (

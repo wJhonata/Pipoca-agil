@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import { IoMdArrowRoundDown  } from 'react-icons/io';
 import './home.css'
-import { Header } from "../../components/Header";
+import { useState } from 'react'
+import { IoMdArrowRoundDown  } from 'react-icons/io'
+import { Header } from "../../components/Header"
 
 export function Home() {
   const [isActive, setIsActive] = useState(false)
