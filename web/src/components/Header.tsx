@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-import { IoMdPerson  } from 'react-icons/io'
-=======
 import { IoMdPerson  } from "react-icons/io"
 import { HeaderLink } from "./HeaderLink"
 import { Separator } from "./Separator"
->>>>>>> e3d57b4edf717f35c2b734d1a9c7e4a3e373ee94
 
 export function Header() {
   return (
