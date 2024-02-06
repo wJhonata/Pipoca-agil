@@ -10,7 +10,7 @@ export function Header() {
       <nav className="flex flex-row items-center">
         <ul className="flex flex-row items-center gap-5">
           <li><HeaderLink href="/" title="Home" /></li>          
-          <li><HeaderLink href="" title="Galeria" /></li>
+          <li><HeaderLink href="/galery" title="Galeria" /></li>
           <li><HeaderLink href="/register" title="Inscreva-se" /></li>
         </ul>
 

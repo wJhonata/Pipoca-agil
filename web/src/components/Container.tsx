@@ -1,11 +1,11 @@
 import { ReactNode } from "react"
 import { Header } from "./Header"
 
-interface AuthContainerProps {
+interface ContainerProps {
   children: ReactNode
 }
 
-export function AuthContainer({ children }: AuthContainerProps) {
+export function Container({ children }: ContainerProps) {
   return (
     <div className="flex flex-col min-h-screen bg-cover bg-no-repeat bg-center bg-[url('/assets/png/bg-auth-pages.png')]">
       <div className="z-10">

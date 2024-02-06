@@ -1,9 +1,9 @@
-import { AuthContainer } from "../../components/AuthContainer"
+import { Container } from "../../components/Container"
 import { Button } from "../../components/Button"
 
 export function Login() {
   return (
-    <AuthContainer>      
+    <Container>      
       <div className="flex flex-row items-center justify-between flex-1">          
         <div className="flex items-center justify-center w-1/2">
           <img src="/assets/png/ibson-face.png" alt="Ibson" />        
@@ -18,7 +18,7 @@ export function Login() {
             <a href="#" className="font-bold text-xl text-zinc-800 hover:underline self-end">Esqueci a senha</a>          
           </div>
           
-          <Button title="Entrar" />          
+          <Button title="Entrar" />         
 
           <div className="flex flex-col items-center justify-center space-y-2">
             <span className="font-bold text-xl text-zinc-800">Ainda não é membro?</span>
@@ -26,6 +26,6 @@ export function Login() {
           </div>
         </div>
       </div>              
-    </AuthContainer>
+    </Container>
   )
 }

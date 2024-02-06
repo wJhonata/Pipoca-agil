@@ -1,9 +1,9 @@
-import { AuthContainer } from "../../components/AuthContainer"
+import { Container } from "../../components/Container"
 import { Button } from "../../components/Button"
 
 export function Register() {
   return (
-    <AuthContainer>    
+    <Container>    
       <div className="flex flex-row items-center justify-between flex-1">          
         <div className="flex items-center justify-center w-1/2">
           <img src="/assets/png/ibson-face.png" alt="Ibson" />        
@@ -30,6 +30,6 @@ export function Register() {
           </div>
         </div>
       </div>  
-    </AuthContainer>
+    </Container>
   )
 }
